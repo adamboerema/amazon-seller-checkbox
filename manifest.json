@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Amazon Seller Checkbox",
+    "description": "Help protect your Amazon product promotion codes from being published on your product pages.",
+    "version": "1.0.0",
+    "permissions": [
+      "*://*/*"
+    ],
+    "content_scripts": [{
+      "matches": ["*://*/*"],
+      "js": ["content_script.js"]
+    }],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "icons": {
+        "16" : "assets/icon_16.png",
+        "128" : "assets/icon_128.png"
+    },
+    "web_accessible_resources": ["img/logo.png"]
+}
