@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Amazon Seller Checkbox",
-    "description": "Help protect your Amazon product promotion codes from being published on your product pages.",
+    "name": "Seller Checkbox",
+    "description": "Help protect your product promotion codes from being published on your product pages.",
     "version": "1.0.0",
     "permissions": [
       "*://*/*"
